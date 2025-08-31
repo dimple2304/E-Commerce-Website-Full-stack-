@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <button id="signinBtn">Sign in</button>
+    <button id="loginBtn">Login</button>
+
+    <form id="signinForm" action="/signup" method="POST">
+        <label for="newUsername">Username:</label>
+        <input type="text" id="newUsername" name="username" placeholder="Enter your username" required />
+        <span id="usernameError" class="error"></span><br><br>
+
+        <label for="newEmail">Email:</label>
+        <input type="text" id="newEmail" name="email" placeholder="Enter your email" required>
+        <span id="emailError" class="error"></span><br><br>
+
+        <label for="newPassword">Password:</label>
+        <input type="password" id="newPassword" name="password" placeholder="Enter a strong password" required />
+        <span id="passwordError" class="error"></span><br><br>
+
+        <label for="otpInput" id="otpLabel" style="display: none;">Enter OTP:</label>
+        <input type="text" id="otpInput" name="otpInput" placeholder="Enter OTP" style="display: none;">
+        <span id="otpError" class="error"></span><br><br>
+
+        <input type="checkbox" id="checkbox"> Register as an admin <br><br>
+
+        <!-- Hidden role input -->
+        <input type="hidden" id="hiddenRole" name="role" value="user">
+
+        <button type="submit" id="signup">Sign up</button>
+    </form>
+
+    <form id="loginForm" action="/login" method="POST" style="display: none;">
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" placeholder="Enter your email" required />
+        <span id="loginEmailError" class="error"></span><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter password" required />
+        <span id="loginPasswordError" class="error"></span><br><br>
+
+        <button type="submit" id="login">Log in</button>
+    </form>
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+</html>

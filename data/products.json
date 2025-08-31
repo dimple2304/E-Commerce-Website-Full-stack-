@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1753338557106,
+    "name": "Adidas sports shoes",
+    "quantity": 12,
+    "price": 1200,
+    "description": "A stylish shoes with highest level of cofortable.",
+    "image": "/uploads/1753338557100-OIP (9).jpeg"
+  },
+  {
+    "id": 1753339111790,
+    "name": "Blue shoes sports wear",
+    "quantity": 2,
+    "price": 1500,
+    "description": "Sleek, stylish, and built for comfort.",
+    "image": "/uploads/1753339111786-OIP (7).jpeg"
+  },
+  {
+    "id": 1753340418791,
+    "name": "Yellow shoes",
+    "quantity": 14,
+    "price": 1250,
+    "description": "Stylish wearable sports shoes.",
+    "image": "/uploads/1753340856876-OIP.jpeg"
+  },
+  {
+    "id": 1753340494921,
+    "name": "Face cream",
+    "quantity": 12,
+    "price": 450,
+    "description": "Glow your face in just ten minuts after use.",
+    "image": "/uploads/1753340494913-OIP (5).jpeg"
+  },
+  {
+    "id": 1753340554255,
+    "name": "Ladies purse",
+    "quantity": 22,
+    "price": 790,
+    "description": "Stylish purse that can hold your items forever.",
+    "image": "/uploads/1753340554248-OIP (4).jpeg"
+  },
+  {
+    "id": 1753340683490,
+    "name": "Beauty ingrediants",
+    "quantity": 40,
+    "price": 3200,
+    "description": "All in one kit to glow your skin for party.",
+    "image": "/uploads/1753340683485-OIP (3).jpeg"
+  },
+  {
+    "id": 1753340752791,
+    "name": "Juicer",
+    "quantity": 8,
+    "price": 300,
+    "description": "Make juice at home by using this juicer.",
+    "image": "/uploads/1753340752784-OIP (2).jpeg"
+  },
+  {
+    "id": 1753340814594,
+    "name": "Face wash and cream",
+    "quantity": 15,
+    "price": 600,
+    "description": "Face wash and sunscreen to glow your skin.",
+    "image": "/uploads/1753340814587-OIP (1).jpeg"
+  },
+  {
+    "id": 1753341237449,
+    "name": "LCD for home",
+    "quantity": 40,
+    "price": 4999,
+    "description": "LCD that can give you the vibe of real.",
+    "image": "/uploads/1753341237440-OIP (12).jpeg"
+  },
+  {
+    "id": 1753341407896,
+    "name": "LED",
+    "quantity": 16,
+    "price": 3999,
+    "description": "LED for office to decorate your wall.",
+    "image": "/uploads/1753341407890-OIP (13).jpeg"
+  },
+  {
+    "id": 1753364371449,
+    "name": "VIVO Notebook",
+    "quantity": 20,
+    "price": 7999,
+    "description": "VIVO Notebook is an ultimate revolution in tech world.",
+    "image": "/uploads/1753364371431-OIP (10).jpeg"
+  },
+  {
+    "id": 1753380032060,
+    "name": "Blue glasses",
+    "quantity": 18,
+    "price": 199,
+    "description": "Fashion is on the way.",
+    "image": "/uploads/1753380032045-OIP (16).jpeg"
+  },
+  {
+    "id": 1753380087172,
+    "name": "Sun glasses",
+    "quantity": 50,
+    "price": 799,
+    "description": "Protect your eyes now.",
+    "image": "/uploads/1753380087159-OIP (17).jpeg"
+  },
+  {
+    "id": 1753380354251,
+    "name": "Transparent glass",
+    "quantity": 25,
+    "price": 499,
+    "description": "Transparent glass are fashionable.",
+    "image": "/uploads/1753380354240-OIP (14).jpeg"
+  },
+  {
+    "id": 1753385262628,
+    "name": "Blue sun glasses",
+    "quantity": 15,
+    "price": 299,
+    "description": "Blue sun glasses are for modern world.",
+    "image": "/uploads/1753385262623-OIP (15).jpeg"
+  }
+]

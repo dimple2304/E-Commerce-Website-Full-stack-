@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <button id="logout">Log out</button><br><br>
+
+    <form action="/adminpage" method="POST">
+        <div class="inputBoxes">
+            Name: <input type="text" name="name" id="name" required>
+            <span id="usernameError" class="error"></span>
+            Quantity: <input type="number" name="quantity" id="quantity" required />
+            Price: <input type="number" name="price" id="price" required />
+            Description: <input type="text" name="description" id="description" required />
+            <input type="file" name="image" id="image" accept="image/*">
+            <img id="imagePreview" style="display:none; width:150px; margin-top:10px;" alt="Image Preview">
+        </div>
+        <div class="button-group">
+            <button id="addbtn" type="submit">List your product now</button>
+            <button id="cancelBtn">Cancel</button>
+        </div>
+    </form>
+
+    <div class="container"></div>
+
+    <!-- Pagination buttons -->
+    <div class="pagination"></div>
+
+
+    <div class="totalbillMsg"></div>
+
+    <script src="products.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Panel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <button id="logoutBtn">Logout</button>
+    <h2 id="welcome"></h2>
+
+    <h3>Get , set, shop!</h3>
+
+    <div class="searchBox">
+        <select id="sortSelect">
+            <option value="">Sort by</option>
+            <option value="default">None</option>
+            <option value="low">Price: Low to High</option>
+            <option value="high">Price: High to Low</option>
+        </select>
+        <input type="text" id="searchBar" placeholder="Search products..." />
+    </div>
+
+    <div class="cart-nav">
+        <button id="goToCartBtn">View cart<span>>></span></button>
+    </div>
+
+    <div class="container" id="userContainer"></div><br><br>
+
+    <div class="prevNextBtns">
+        <button id="previousBtn">Previous</button>
+        <p class="pageNumberDisplay"></p>
+        <button id="nextBtn">Next</button>
+    </div>
+
+
+
+    <script src="user.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <button id="logoutBtn">Logout</button>
+    <h2 id="welcome"></h2>
+
+    <h3>Products</h3>
+    <div class="container" id="userContainer"></div><br><br>
+
+    <div class="prevNextBtns">
+        <button id="previousBtn">Prevoius</button>
+        <p class="pageNumberDisplay"></p>
+        <button id="nextBtn">Next</button>
+    </div>
+
+    <h2 id="myCartHeading">My cart:</h2>
+    <div class="cartContainer"></div>
+
+
+    <script src="user.js"></script>
+</body>
+
+</html> -->

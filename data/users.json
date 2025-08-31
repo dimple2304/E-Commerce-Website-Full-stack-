@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1753033228377,
+    "username": "dimplekumar2304",
+    "email": "teambinarybrothers@gmail.com",
+    "password": "12345",
+    "role": "user",
+    "cart": [
+      {
+        "id": 1753340418791,
+        "price": 1250,
+        "quantity": 1,
+        "bought": false,
+        "image": "/uploads/1753340856876-OIP.jpeg"
+      },
+      {
+        "id": 1753340494921,
+        "price": 450,
+        "quantity": 1,
+        "bought": false,
+        "image": "/uploads/1753340494913-OIP (5).jpeg"
+      },
+      {
+        "id": 1753339111790,
+        "price": 1500,
+        "quantity": 1,
+        "bought": true,
+        "image": "/uploads/1753339111786-OIP (7).jpeg",
+        "purchasedQuantity": 1
+      }
+    ],
+    "itemsBought": [
+      {
+        "id": 1753339111790,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": 1753033446286,
+    "username": "admin",
+    "email": "dimplekumar2304@gmail.com",
+    "password": "12345",
+    "role": "admin",
+    "cart": [],
+    "itemsBought": []
+  },
+  {
+    "id": 1753389410764,
+    "username": "kumar",
+    "email": "Kumardimple393@gmail.com",
+    "password": "12345678",
+    "role": "user",
+    "cart": [],
+    "itemsBought": []
+  }
+]

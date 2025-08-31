@@ -1,0 +1,141 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f4f6f8;
+  margin: 0;
+  padding: 20px;
+}
+
+button {
+  cursor: pointer;
+  padding: 8px 16px;
+  margin: 5px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #388e3c;
+}
+
+.inputBoxes {
+  display: none;
+}
+
+.inputBoxes input {
+  margin-right: 10px;
+  padding: 6px 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.flexclass img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.button-group {
+  display: flex;
+  margin: 20px 0px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.flexclass {
+  width: 247px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  transition: transform 0.2s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.flexclass:hover {
+  transform: scale(1.02);
+}
+
+.flexclass p {
+  margin: 8px 0;
+  color: #333;
+}
+
+.flexclass input[type="checkbox"] {
+  margin-right: 6px;
+}
+
+.flexclass .duplicate-msg {
+  color: crimson;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+#cancelBtn {
+  display: none;
+  background-color: red;
+}
+
+#logout {
+  background-color: rgb(237, 57, 57);
+}
+
+.cart-button-group {
+  display: flex;
+  /* justify-content: center; */
+  gap: 10px;
+  margin-top: auto;
+}
+
+.cart-button-group button {
+  width: 80px;
+  padding: 6px 0;
+  border-radius: 5px;
+  color: white;
+  font-size: 14px;
+}
+
+.cart-button-group .edit-btn {
+  background-color: green;
+}
+
+.cart-button-group .delete-btn {
+  background-color: red;
+}
+
+
+.pagination {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 40px;
+}
+
+.pagination button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.pagination button:hover {
+  background-color: #388e3c;
+}
+
+.pagination button.active {
+  background-color: #1976d2;
+}
